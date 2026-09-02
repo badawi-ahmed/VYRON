@@ -1,217 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VYRON — Where Gaming Meets Greatness</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head><body><header>
+    <div class="container">
+        <div class="header-content">
 
-</head>
+            <a href="index.html" class="brand">
+                <img src="Images/VYRON-GAME.png" width="250px" height="85" alt="">
+            </a>
 
-<body>
+            <nav>
+                <ul id="links">
+                    <li><a href="login.html">Sing in</a></li>
+                    <li><a href="register.html">Sign up</a></li>
+                </ul>
 
-    <header>
-        <div class="container">
+                <ul id="user_info">
+                    <li><a href="#" id="user"></a></li>
 
-            <div class="header-content">
-                <a href="index.html" class="brand">
-                    <img src="Images/VYRON-GAME.png" width="250px" height="85" alt="">
-                </a>
+                    <li class="shopping-car">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span class="bage">0</span>
 
-                <nav>
-                    <ul id="links">
-                        <li><a href="login.html">Sing in</a></li>
-                        <li><a href="register.html">Sign up</a></li>
-                    </ul>
-                    <ul id="user_info">
-                        <li><a href="#" id="user"></a></li>
-                        <li class="shopping-car">
-                            <i class="fa-solid fa-cart-plus"></i>
-                            <span class="bage">0</span>
-                            <!-- /////////////////////////////////////// -->
-                            <div class="carts-products">
+                        <div class="carts-products">
 
-                                <div class="empty-cart">
-                                    Your cart is empty.
-                                </div>
+                            <div class="empty-cart">
+                                Your cart is empty.
+                            </div>
 
-                                <div class="cart-items">
+                            <div class="cart-items">
+                                <div class="cart-product">
 
-                                    <div class="cart-product">
-                                        <div class="cart-child-products">
-                                            <div>
-                                                <h3>Silver Necklace</h3>
-                                                <p>Price: $150</p>
-                                            </div>
+                                    <div class="cart-child-products">
+                                        <div>
+                                            <h3>Silver Necklace</h3>
+                                            <p>Price: $150</p>
+                                        </div>
 
-                                            <div class="quantity">
-                                                <button>-</button>
-                                                <span>1</span>
-                                                <button>+</button>
-                                            </div>
+                                        <div class="quantity">
+                                            <button>-</button>
+                                            <span>1</span>
+                                            <button>+</button>
                                         </div>
                                     </div>
 
                                 </div>
-
-                                <a href="cartsproducts.html" class="view-all">
-                                    View All Products
-                                </a>
-
                             </div>
-                        </li>
-                        <li><a href="#" id="logout">Log Out</a></li>
-                    </ul>
-                </nav>
-            </div>
 
-        </div>
-    </header>
+                            <a href="cartsproducts.html" class="view-all">
+                                View All Products
+                            </a>
 
-    <!-- /////////////////////////////////////////////// -->
-
-    <section class="crown-top">
-
-
-        <div class="hed_parent">
-            <h1>Welcome to VYRON — Where Gaming Meets Greatness</h1>
-            <div class="lin"></div>
-            <div class="p_hed">
-                <p>"Explore the best games from around the world and discover exciting adventures made for every type of
-                    gamer." 🎮🔥</p>
-            </div>
-
-        </div>
-        <!-- /////////////////////////////////////////////////////////////////////////// -->
-
-        <section>
-            <div class="total-search">
-                <div class="search-box">
-                    <label for="searchType" class="sr-only ">Search Type</label>
-                    <select id="searchType" name="searchType">
-                        <option value="name">Search by Game Name</option>
-                        <option value="category">Search by Category</option>
-                    </select>
-
-                    <input type="text" id="searchInput" placeholder="Search for a game...">
-
-                    <button type="button">
-                        Search
-                    </button>
-
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- /////////////////////////////////////////////////////////////////////////// -->
-        <div class="container-card-total">
-            <div class="card_total">
-                <div class="card ">
-
-                    <img src="Images/Gafe.jpg" alt="Elden Ring">
-
-                    <div class="num-img">1</div>
-
-                    <div class="child-card">
-                        <h2>Elden Ring</h2>
-
-                        <div class="senter-card">
-                            <span class="spn-RPG">Action RPG</span>
-
-                            <span class="salare">$59.99</span>
                         </div>
+                    </li>
 
-                        <span class="spn-star"><i class="fa-solid fa-star"></i>9.7</span>
+                    <li>
+                        <a href="#" id="logout">Log Out</a>
+                    </li>
+                </ul>
+            </nav>
 
-                        <p>A vast world of mystery and danger, <br> with deep lore and challenging combat</p>
+        </div>
+    </div>
+</header>
 
-                        <button>Add TO Cart</button>
+<section class="crown-top">
 
-                        <i class="fa-solid fa-heart love"></i>
+    <div class="hed_parent">
 
+        <h1>Welcome to VYRON — Where Gaming Meets Greatness</h1>
+
+        <div class="lin"></div>
+
+        <div class="p_hed">
+            <p>
+                "Explore the best games from around the world and discover exciting adventures made for every type of gamer." 🎮🔥
+            </p>
+        </div>
+
+    </div>
+
+    <section>
+
+        <div class="total-search">
+
+            <div class="search-box">
+
+                <label for="searchType" class="sr-only">
+                    Search Type
+                </label>
+
+                <select id="searchType" name="searchType">
+                    <option value="name">Search by Game Name</option>
+                    <option value="category">Search by Category</option>
+                </select>
+
+                <input type="text" id="searchInput" placeholder="Search for a game...">
+
+                <button type="button">
+                    Search
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="container-card-total">
+
+        <div class="card_total">
+
+            <div class="card">
+
+                <img src="Images/Gafe.jpg" alt="Elden Ring">
+
+                <div class="num-img">1</div>
+
+                <div class="child-card">
+
+                    <h2>Elden Ring</h2>
+
+                    <div class="senter-card">
+                        <span class="spn-RPG">Action RPG</span>
+                        <span class="salare">$59.99</span>
                     </div>
 
+                    <span class="spn-star">
+                        <i class="fa-solid fa-star"></i>9.7
+                    </span>
+
+                    <p>
+                        A vast world of mystery and danger,
+                        <br>
+                        with deep lore and challenging combat
+                    </p>
+
+                    <button>Add TO Cart</button>
+
+                    <i class="fa-solid fa-heart love"></i>
+
                 </div>
+
             </div>
+
         </div>
 
-        <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    </div>
 
-        <footer class="footer">
+    <footer class="footer">
 
-            <div class="footer-container">
+        <div class="footer-container">
 
-                <div class="footer-brand">
-                    <h2>VYRON</h2>
-                    <p>
-                        Where Gaming Meets Greatness 🎮
-                    </p>
-                </div>
+            <div class="footer-brand">
+                <h2>VYRON</h2>
+                <p>Where Gaming Meets Greatness 🎮</p>
+            </div>
 
-                <div class="footer-links">
+            <div class="footer-links">
 
-                    <h3>Quick Links</h3>
+                <h3>Quick Links</h3>
 
-                    <a href="index.html">Home</a>
-                    <a href="cartsproducts.html">Cart</a>
-                    <a href="favorites.html">Favorites</a>
-                    <a href="login.html">Sign In</a>
-
-                </div>
-                <div class="footer-social">
-
-                    <h3>Follow Us</h3>
-
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-
-                </div>
+                <a href="index.html">Home</a>
+                <a href="cartsproducts.html">Cart</a>
+                <a href="favorites.html">Favorites</a>
+                <a href="login.html">Sign In</a>
 
             </div>
 
-            <div class="footer-bottom">
+            <div class="footer-social">
 
-                <p>
-                    © 2026 VYRON. All Rights Reserved.
-                </p>
+                <h3>Follow Us</h3>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
 
             </div>
 
-        </footer>
+        </div>
 
+        <div class="footer-bottom">
+            <p>© 2026 VYRON. All Rights Reserved.</p>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</section>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-        <script src="js/script.js"></script>
-        <script src="js/data.js"></script>
-        <script src="js/products.js"></script>
-        <script src="js/cart.js"></script>
-        <script src="js/favorites.js"></script>
-        <script src="js/search.js"></script>
-        <script src="js/auth.js"></script>
-        <script src="js/main.js"></script>
+<script src="js/script.js"></script>
+<script src="js/data.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/search.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/main.js"></script>
+
 </body>
-
 </html>
