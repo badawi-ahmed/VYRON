@@ -1,25 +1,29 @@
-let username = document.querySelector("#username")
+let email = document.querySelector("#email")
 let password = document.querySelector("#password")
 
-let loginBtn = document.querySelector("#sign_in")
+let loginBtn = document.querySelector(".login")
 
-let getUsername = localStorage.getItem("username")
+
+let getEmail = localStorage.getItem("email")
 
 let getPassword = localStorage.getItem("password")
 
+
+
+
 loginBtn.addEventListener("click" , function(a){
     a.preventDefault()
-    if (username.value === "" || password.value === "" ){
+    if (email.value === "" || password.value === "" ){
         alert("Please fill data")
     }else{
-        if(getUsername && getUsername.trim()  === username.value.trim() &&  getPassword && getPassword.trim()  === password.value ){
-
+        if(getEmail && getEmail.trim()  === email.value.trim() &&  getPassword && getPassword.trim()  === password.value ){
+            alert("Welcome to our Gaming Store! 🎮 Have fun!")
             setTimeout (() => {
             window.location = "index.html"
         }, 1000 )
 
         }else{
-            alert("username or password is worng")
+            alert("Email or password is worng")
         }
     }
 })
