@@ -1,5 +1,12 @@
 function addToCart(id) {
 
+    let user = localStorage.getItem("firstName");
+
+    if (!user) {
+        alert("Please sign in first to add products to your cart.");
+        return;
+    }
+
     let choosenItem =
         card_total.find(function (item) {
 

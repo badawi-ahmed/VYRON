@@ -19,7 +19,7 @@ loginBtn.addEventListener("click" , function(a){
         if(getEmail && getEmail.trim()  === email.value.trim() &&  getPassword && getPassword.trim()  === password.value ){
             alert("Welcome to our Gaming Store! 🎮 Have fun!")
             setTimeout (() => {
-            window.location = "register.html"
+            window.location = "index.html"
         }, 1000 )
 
         }else{
