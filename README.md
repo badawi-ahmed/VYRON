@@ -35,6 +35,12 @@ The project focuses on building a complete front-end gaming store experience, in
 **Badawi Ahmed**
 
 Front-End Developer | React.js | JavaScript
+
+---
+
+⭐ Thanks for checking out VYRON!
+
+
 ```text
 VYRON/
 ├── Images/
